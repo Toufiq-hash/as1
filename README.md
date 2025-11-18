@@ -11,9 +11,10 @@
 ```ts
 interface User {
   name: string;
+
 }
 
-interface User {
+interface User{
   age: number;
 }
 ````
@@ -44,7 +45,7 @@ type User ={
 };
 
 type UserKeys = keyof User;
-// "name" | "age" | "email"
+//"name" | "age" | "email"
 
 function getValue(obj: User, key: UserKeys) {
   return obj[key];
