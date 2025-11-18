@@ -1,10 +1,9 @@
 
-# TypeScript Short Notes (Bangla)
 
-## 1. Interface vs Type (Difference)
+## 1. Interface vs Type 
 
 ### Interface
-- মূলত object structure ডিফাইন করার জন্য ব্যবহৃত হয়।
+- object structure ডিফাইন করার জন্য ব্যবহৃত হয়।
 - `extends` ব্যবহার করে বাড়ানো যায়।
 - একই নামে বারবার declare করলে merge হয়ে যায়।
 
@@ -16,7 +15,6 @@ interface User {
 interface User {
   age: number;
 }
-// Merged → { name: string; age: number }
 ````
 
 ### Type
