@@ -31,7 +31,6 @@ type ID = string | number;
 type User = { name: string; age: number };
 ```
 
----
 
 ## 2. keyof এর ব্যবহার --- 
 
