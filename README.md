@@ -1,6 +1,6 @@
 
 
-## 1. Interface vs Type 
+## 1. Interface VS Type 
 
 ### Interface
 - object structure ডিফাইন করার জন্য ব্যবহৃত হয়
@@ -33,9 +33,9 @@ type User = { name: string; age: number };
 
 ---
 
-## 2. keyof এর ব্যবহার
+## 2. keyof এর ব্যবহার --- 
 
-`keyof` কোনো object type এর সব key কে union type হিসেবে দেয়।
+`keyof` কোনো object type এর সব key কে union type হিসেবে দেয় । কোনো object এর property নাম গুলোকে আলাদা type হিসেবে ব্যবহার করা যায়
 
 ```ts
 type User ={
