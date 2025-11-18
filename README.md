@@ -51,5 +51,4 @@ function getValue(obj: User, key: UserKeys) {
 }
 ```
 
-```
-```
+
